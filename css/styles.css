@@ -720,12 +720,15 @@ width: 100%;
     position: relative;
     margin-bottom: 8px;
 }
+.icon-input {
+    position: relative;
+}
 
 .modal-input-icon {
     position: absolute;
-    top: 75%;
+    top: 50%;
     left: 16px;
-    transform: translateY(-75%);
+    transform: translateY(-50%);
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
